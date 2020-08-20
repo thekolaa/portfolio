@@ -1,0 +1,36 @@
+.content { 
+}
+
+.contact__imgWrapper {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 150px;
+    z-index: 1000;
+}
+.contact__btn {
+    display: flex;
+}
+/* and down */
+@media (max-width: 767px) { 
+    .contact__imgWrapper {
+        display: none;
+    }
+    .contact__btn {
+        display: flex;
+    }
+    .contact__btn button {
+        width: 100%;
+        padding:  0px;
+    }
+    .contact__title {
+        display: block;
+    }
+} 
+
+/* and up */
+@media (min-width: 767px) { 
+    .contact__title {
+        display: none;
+    }
+} 
+

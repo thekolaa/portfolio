@@ -1,0 +1,54 @@
+.content { 
+    margin-bottom: 120px;
+}
+
+/* and down */
+@media (max-width: 991px) { 
+
+    .profileImg {
+        visibility: hidden;
+        height: 100px;
+    }
+    .skillsImg {
+        display: none;
+    }
+
+}  
+@media (max-width: 767px) { 
+    .row__2 {
+        margin-top: 500px;
+    }
+
+    .about__name {
+        font-size: 24px;
+        text-align: center;
+    }
+    .about__txt {
+        text-align: center;
+    }
+    .about__technicalSkillsTitle {
+        font-size: 24px;
+        text-align: center;
+    }
+    .about__technicalSkillsTxt {
+        text-align: center;
+
+    }
+    
+} 
+
+/* and up */
+@media (min-width: 767px) { 
+
+} 
+
+/* mobile phones */
+@media (max-width: 575px) { 
+    .about__technicalSkillsBadges {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+   
+}
+ 

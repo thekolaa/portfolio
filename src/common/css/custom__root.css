@@ -1,0 +1,41 @@
+.text-info {
+    color: #90caf9 !important;
+}
+.text-dark {
+    color: #172734 !important;
+}
+
+.text-dark-fade {
+    color: #172734 rgba(23, 39, 52, 0.5) !important;
+}
+.text-secondary {
+    color: #90a4ae  !important;
+}
+.bg-dark {
+    background: #172734 !important;
+}
+.btn-dark {
+    background: #172734 !important;
+}
+.btn-outline-dark {
+    border-color:  #172734 !important;
+}
+
+.boxshadow-none {
+    box-shadow: none;
+}
+.container__100vh {
+    height: 100vh;
+}
+.container__90vh {
+    height: 90vh;
+}
+.container__80vh {
+    height: 80vh;
+}
+.container__70vh {
+    height: 70vh;
+}
+.cursor__pointer {
+    cursor: pointer;
+}

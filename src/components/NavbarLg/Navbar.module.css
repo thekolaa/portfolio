@@ -1,0 +1,9 @@
+.navLgWrapper {
+
+}
+
+@media (max-width: 767px) {
+    .navLgWrapper {
+        display: none;
+    }
+}
