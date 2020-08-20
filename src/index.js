@@ -10,13 +10,8 @@ import './common/root.css';
 import './common/css/textarea__root.css';
 import './common/css/custom__root.css';
 import './common/css/txt__root.css';
-
 import './common/css/brand-colors__root.css';
-
 import './common/global-breakpoints.css';
-
-
-
 
 ReactDOM.render(
   <React.StrictMode>
