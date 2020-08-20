@@ -2,7 +2,7 @@
   "name": "aug13-20",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://baekdusan.github.io/github-pages-portfolio/",
+  "homepage": ".",
   "dependencies": {
     "@fortawesome/react-fontawesome": "^0.1.11",
     "@testing-library/jest-dom": "^4.2.4",
