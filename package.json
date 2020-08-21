@@ -20,12 +20,13 @@
     "source-map-explorer": "^2.4.2"
   },
   "scripts": {
-    "dev": "react-scripts start",
-    "start": "serve -s build",
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
+    "predeploy":"npm build",
+	  "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

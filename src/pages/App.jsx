@@ -15,9 +15,6 @@ const GitHub  = lazy(() => import('./GitHub/GitHub'));
 
 function App() {
     const location = useLocation();
-
-    console.log(`location -> ${location}`)
-
     return (
         <>
             <NavbarLarge />
