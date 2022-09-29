@@ -4,11 +4,9 @@ import { BiMap } from "react-icons/bi"
 import { FaCode } from "react-icons/fa";
 
 
-
-
 function PageHome() {
     const baseUrl = "https://res.cloudinary.com/diigkcc6g/image/upload"
-    const avatar = `${baseUrl}/v1663337078/Language%20and%20Frameworks/avatar_we8upg.webp`;
+    const avatar = `${baseUrl}/v1664423550/Language%20and%20Frameworks/avatar_1_mo7aai.webp`;
     const tools = [
         { name: "Javascript", path: `${baseUrl}/v1663337071/Language%20and%20Frameworks/javascript_awlynx.webp` },
         { name: "React JS", path: `${baseUrl}/v1663337072/Language%20and%20Frameworks/react_cwb34c.webp` },
